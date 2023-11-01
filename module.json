@@ -1,7 +1,7 @@
 {
-    "id": "YOUR MODULE ID",
-    "title": "YOUR MODULE TITLE",
-    "description": "YOUR MODULE DESCRIPTION",
+    "id": "sound-package",
+    "title": "🎵 SoundPackage",
+    "description": "A package containing many sounds that can be used anywhere on your world.",
     "version": "1.0.0",
     "authors": [
         {
@@ -23,6 +23,15 @@
     "compatibility": {
         "minimun": "10",
         "verified": "11"
+    },
+    "relationship": {
+        "requires": [
+            {
+                "id": "sequencer",
+                "type": "module",
+                "compatibility": {}
+            }
+        ]
     },
     "license": "./LICENSE",
     "url": "https://github.com/USERNAME/MODULE",
